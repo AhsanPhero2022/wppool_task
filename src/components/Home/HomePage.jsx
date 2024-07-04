@@ -1,7 +1,11 @@
+import Navbar from "../layout/Navbar";
+import HeroSection from "../pages/HeroSection/HeroSection";
+
 const HomePage = () => {
   return (
     <div>
-      <h1>tis is home page</h1>
+      <Navbar />
+      <HeroSection />
     </div>
   );
 };
